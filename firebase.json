@@ -1,2 +1,5 @@
-.firebaserc
-firebase.json
+{
+  "hosting": {
+    "public": "."
+  }
+}
