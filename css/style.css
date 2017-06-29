@@ -1,0 +1,29 @@
+h1 {
+  font-size:4em;
+  color:blue;
+  font-style:italic;
+}
+
+ol {
+color:red;
+width:120px;
+}
+
+.highlight{
+  background-color: yellow;
+  font-style: bold;
+}
+
+p{
+  width:500px;
+}
+
+p.whatever{
+  color:blue;
+  width:800px;
+}
+
+#thingy{
+  font-size:30px;
+  color: red;
+}
