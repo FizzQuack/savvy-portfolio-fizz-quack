@@ -1,12 +1,19 @@
+html{
+    background-color: green;
+}
+
 h1 {
   font-size:4em;
   color:blue;
   font-style:italic;
+text-align:center;
+
 }
 
 ol {
 color:red;
 width:120px;
+margin:0 auto;
 }
 
 .highlight{
@@ -15,15 +22,29 @@ width:120px;
 }
 
 p{
-  width:500px;
+  max-width:500px;
+margin:0 auto;
+margin-bottom:20px;
+
 }
 
-p.whatever{
-  color:blue;
-  width:800px;
-}
+
 
 #thingy{
   font-size:30px;
   color: red;
+}
+
+.container{
+    max-width:750px;
+    margin:0 auto;
+    background-color:silver;
+}
+
+img{
+    max-width:500px;
+    width 100%;
+    height:auto;
+    margin:0 auto;
+    display:block;
 }
