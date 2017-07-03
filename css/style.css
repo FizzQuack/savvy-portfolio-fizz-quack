@@ -1,44 +1,105 @@
 html{
-    background-color: green;
+    background-color: #004d1a;
+    background-image: url(http://www.studentaffairs.uci.edu/greendot/images/1194984775760075334button-green_benji_park_01.svg.hi.png) ;
+    background-size: 200px;
+    background-repeat: repeat-xy;
+    background-attachment: fixed;
+    background-blend-mode:luminosity;
+
+
 }
+
 
 h1 {
-  font-size:4em;
-  color:blue;
-  font-style:italic;
-text-align:center;
+    font-size:4em;
+    color: #ccffcc;
+    text-shadow: 1px 1px 2px black, 0 0 25px #004d1a, 0 0 5px lime;
+    font-style:italic;
+    text-align:center;
+    font-family: 'Bree Serif', serif;
 
 }
 
-ol {
-color:red;
-width:120px;
-margin:0 auto;
+ul {
+    list-style: none;
+    margin:0 auto;
+    margin-bottom:20px;
+    max-width:600px;
+    overflow:hidden;
+    background-color:#33cc00;
+
 }
+
+li{
+    float:left;
+    max-width:400px;
+    border-right: 1px solid #bbb;
+
+}
+
+
+li a{
+    display:block;
+    color:#004d1a;
+    text-align:center;
+    padding-left:30px;
+    padding: 8px 20px 8px 20px;
+    text-decoration:none;
+    font-family: 'Bree Serif', serif;
+}
+
+li a:hover:not(.active) {
+    background-color: #66ff33;
+}
+
+li a.active {
+    color: #004d1a;
+    background-color: #66ff33;
+}
+
+li:last-child {
+    border-right: none;
+}
+
 
 .highlight{
-  background-color: yellow;
-  font-style: bold;
+     background-color: yellow;
+     font-style: bold;
 }
 
 p{
-  max-width:500px;
-margin:0 auto;
-margin-bottom:20px;
+    max-width:500px;
+    margin:0 auto;
+    margin-bottom:20px;
+    font-family: Gill Sans Extrabold, sans-serif;
+    font-size:18px;
+    line-height:22px;
 
 }
 
 
 
 #thingy{
-  font-size:30px;
-  color: red;
+    font-size:30px;
+    color: red;
 }
 
 .container{
     max-width:750px;
     margin:0 auto;
-    background-color:silver;
+
+    border-left: 5px solid red;
+    border-right: 5px solid red;
+    border-radius:22px;
+    background: silver; /* For browsers that do not support gradients */
+ /* For Safari 5.1 to 6.0 */
+ background: -webkit-linear-gradient(left,gray, silver, gray);
+ /* For Opera 11.1 to 12.0 */
+ background: -o-linear-gradient(left,gray, silver, gray);
+ /* For Fx 3.6 to 15 */
+ background: -moz-linear-gradient(left,gray, silver, gray);
+ /* Standard syntax */
+ background: linear-gradient(to right, gray, silver, gray);
 }
 
 img{
