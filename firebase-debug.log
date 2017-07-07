@@ -1,0 +1,33 @@
+[debug] [2017-07-07T00:11:44.097Z] ----------------------------------------------------------------------
+[debug] [2017-07-07T00:11:44.101Z] Command:      /usr/local/bin/node /usr/local/bin/firebase deploy
+[debug] [2017-07-07T00:11:44.102Z] CLI Version:  3.9.1
+[debug] [2017-07-07T00:11:44.102Z] Platform:     darwin
+[debug] [2017-07-07T00:11:44.102Z] Node Version: v8.1.2
+[debug] [2017-07-07T00:11:44.103Z] Time:         Thu Jul 06 2017 19:11:44 GMT-0500 (CDT)
+[debug] [2017-07-07T00:11:44.103Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-07-07T00:11:44.165Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-07-07T00:11:44.165Z] > authorizing via signed-in user
+[debug] [2017-07-07T00:11:44.169Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2017-07-07T00:11:44.169Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token { refresh_token: '1/ASmvWTfumVA7rLA5yAgMosLbguS-OHjrD6HbEQVO5P8',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Thu Jul 06 2017 19:11:44 GMT-0500 (CDT)
+[debug] [2017-07-07T00:11:44.394Z] <<< HTTP RESPONSE 200
+[debug] [2017-07-07T00:11:44.504Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/june2017savvycoders-d4e63  
+ Thu Jul 06 2017 19:11:44 GMT-0500 (CDT)
+[debug] [2017-07-07T00:11:44.872Z] <<< HTTP RESPONSE 200
+[debug] [2017-07-07T00:11:44.873Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/june2017savvycoders-d4e63/tokens  
+ Thu Jul 06 2017 19:11:44 GMT-0500 (CDT)
+[debug] [2017-07-07T00:11:45.317Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'june2017savvycoders-d4e63'...
+[info] 
+[info] i  deploying hosting
+[info] i  hosting: preparing . directory for upload...
+[debug] [2017-07-07T00:11:49.117Z] >>> HTTP REQUEST PUT https://deploy.firebase.com/v1/hosting/june2017savvycoders-d4e63/uploads/-KoPM4IQZVkoEJOSM_X_?fileCount=523&message=  
+ Thu Jul 06 2017 19:11:49 GMT-0500 (CDT)
+[debug] [2017-07-07T00:11:52.386Z] <<< HTTP RESPONSE 200
+[debug] [2017-07-07T00:11:52.387Z] [hosting] .tgz uploaded successfully, waiting for extraction

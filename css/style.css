@@ -204,7 +204,11 @@ img{
     margin:0 auto;
     margin-bottom:20px;
     display:block;
+}
+
+/*------ FORMS -------------------------------------------------*/
 
 
-
+form > input{
+    background-color: red;
 }
