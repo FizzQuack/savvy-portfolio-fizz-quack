@@ -35,8 +35,27 @@ html{
     background-color:red;
     position:fixed;
     top:0;
+    right:-900;
+    transition: right .5s ease;
+}
+
+.holder{
+
+
+}
+
+/*------ MOVE -------------------------------------------------*/
+
+.menu:hover + .sidebar{
+    right:0;
+
+}
+
+.sidebar:hover{
     right:0;
 }
+
+
 
 /*------ Nav CONTAINER -------------------------------------------------*/
 
@@ -79,7 +98,6 @@ html{
     border-right: none;
 }
 
-
 /*------ Nav SIDEBAR -------------------------------------------------*/
 
 
@@ -87,6 +105,7 @@ html{
     list-style: none;
     overflow:hidden;
     max-width:140px;
+    margin-top:60px;
 
 }
 
@@ -110,6 +129,7 @@ html{
 
 .sidebar li a:hover:not(.active) {
     background-color: #ff9999;
+    color:black;
 }
 
 
@@ -139,7 +159,16 @@ p{
     line-height:22px;
 }
 
-
+.menu {
+    color:white;
+    text-align:center;
+    font-family: Gill Sans Extrabold, sans-serif;
+    position: fixed;
+    top:0;
+    right:30px;
+    margin-bottom: 80px;
+    z-index:1;
+}
 
 #thingy{
     font-size:30px;
@@ -150,13 +179,13 @@ p{
 /*------ IMAGES -------------------------------------------------*/
 
 
-.burger{
+.menu_2 {
     background-image: url(http://www.hiadel.sk/cms/images/menu_icon.png);
     width:90px;
     height: 90px;
-    position:absolute;
+    position:fixed;
     top:0;
-    right:150;
+    right:20;
 }
 
 img{
