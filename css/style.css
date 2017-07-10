@@ -6,11 +6,6 @@ html{
     background-blend-mode:luminosity;
 }
 
-.wrapper{
-    max-width:1100px;
-    margin:0 auto;
-}
-
 .container{
     max-width:750px;
     margin:0 auto;
@@ -19,14 +14,14 @@ html{
     border-right: 5px solid red;
     border-radius:22px;
     background: silver; /* For browsers that do not support gradients */
- /* For Safari 5.1 to 6.0 */
- background: -webkit-linear-gradient(left,gray, silver, gray);
- /* For Opera 11.1 to 12.0 */
- background: -o-linear-gradient(left,gray, silver, gray);
- /* For Fx 3.6 to 15 */
- background: -moz-linear-gradient(left,gray, silver, gray);
- /* Standard syntax */
- background: linear-gradient(to right, gray, silver, gray);
+     /* For Safari 5.1 to 6.0 */
+     background: -webkit-linear-gradient(left,gray, silver, gray);
+     /* For Opera 11.1 to 12.0 */
+     background: -o-linear-gradient(left,gray, silver, gray);
+     /* For Fx 3.6 to 15 */
+     background: -moz-linear-gradient(left,gray, silver, gray);
+     /* Standard syntax */
+     background: linear-gradient(to right, gray, silver, gray);
 }
 
 .sidebar{
@@ -34,27 +29,21 @@ html{
     width:150px;
     background-color:red;
     position:fixed;
-    top:0;
-    right:-900;
+    top:0px;
+    right:-150px;
     transition: right .5s ease;
 }
 
-.holder{
-
-
-}
 
 /*------ MOVE -------------------------------------------------*/
 
 .menu:hover + .sidebar{
-    right:0;
-
+    right:0px;
 }
 
 .sidebar:hover{
-    right:0;
+    right:0px;
 }
-
 
 
 /*------ Nav CONTAINER -------------------------------------------------*/
@@ -209,6 +198,19 @@ img{
 /*------ FORMS -------------------------------------------------*/
 
 
-form > input{
-    background-color: red;
+#sub_f {
+    background-color:#66ff33;
+    color:#004d1a;
+
 }
+
+#sub_f:hover:not(.active) {
+        background-color: red;
+        color:white;
+    }
+
+
+#sub_f.active {
+        color: white;
+        background-color: red;
+    }
