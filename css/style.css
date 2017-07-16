@@ -96,6 +96,8 @@ html{
     max-width:140px;
     margin-top:60px;
 
+
+
 }
 
 .sidebar li {
@@ -103,16 +105,23 @@ html{
     margin-bottom:10px;
     padding-right:30px;
 
+
+
+
 }
 
 .sidebar li a {
     background-color:#800000;
     font-family: 'Bree Serif', serif;
-    padding-left:20px;
+    padding-left:40px;
     padding-right:90px;
     margin-left:-20px;
     color:white;
     text-decoration:none;
+    border-radius:15px;
+
+
+
 
 }
 
@@ -125,6 +134,15 @@ html{
 .sidebar li a.active {
     color: white;
     background-color: #ff9999;
+}
+
+.sidebar li img {
+
+    width:80px;
+    height:auto;
+    display:block;
+    float:left;
+
 }
 
 
@@ -195,6 +213,8 @@ img{
     display:block;
 }
 
+
+
 /*------ FORMS -------------------------------------------------*/
 
 
@@ -213,4 +233,9 @@ img{
 #sub_f.active {
         color: white;
         background-color: red;
+    }
+
+[focus]{
+        border-color:3px green;
+        border-radius:5px;
     }
